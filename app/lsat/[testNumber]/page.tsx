@@ -29,10 +29,10 @@ export default async function LsatTestPage({ params }: PageProps) {
       <div className="exam-topbar">
         <Link className="back-link" href="/">
           <ArrowLeft size={18} aria-hidden="true" />
-          Tests
+          Apta Tests
         </Link>
         <div>
-          <p className="eyebrow">LSAT</p>
+          <p className="eyebrow">Unofficial LSAT-style practice</p>
           <h1>Practice Test {test.test_number}</h1>
         </div>
       </div>
